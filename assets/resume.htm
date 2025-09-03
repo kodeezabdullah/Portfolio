@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Abdullah - Resume</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Times New Roman', serif;
+            line-height: 1.35;
+            color: #000;
+            background: white;
+            font-size: 10.5px;
+        }
+        
+        .resume {
+            max-width: 174mm;
+            margin: 0 auto;
+            background: white;
+        }
+        
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 16px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 8px;
+        }
+        
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 2px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .title {
+            font-size: 11px;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+        
+        .contact {
+            font-size: 9px;
+            line-height: 1.2;
+        }
+        
+        /* Sections */
+        .section {
+            margin-bottom: 14px;
+        }
+        
+        .section-title {
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 1px;
+        }
+        
+        /* Summary */
+        .summary-text {
+            text-align: justify;
+            line-height: 1.3;
+            font-size: 9.5px;
+            margin-bottom: 2px;
+        }
+        
+        /* Two Column Layout */
+        .main-content {
+            display: grid;
+            grid-template-columns: 52% 48%;
+            gap: 15mm;
+        }
+        
+        /* Education */
+        .education-item {
+            margin-bottom: 10px;
+        }
+        
+        .degree {
+            font-weight: bold;
+            font-size: 9.5px;
+        }
+        
+        .institution {
+            font-size: 8.5px;
+            margin-bottom: 1px;
+        }
+        
+        .details {
+            font-size: 8.5px;
+            line-height: 1.25;
+        }
+        
+        /* Experience */
+        .experience-item {
+            margin-bottom: 10px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            font-size: 9.5px;
+        }
+        
+        .company {
+            font-size: 8.5px;
+            margin-bottom: 1px;
+        }
+        
+        .job-description {
+            font-size: 8.5px;
+            line-height: 1.25;
+        }
+        
+        /* Skills */
+        .skills-list {
+            margin-left: 12px;
+        }
+        
+        .skills-list li {
+            font-size: 8.5px;
+            margin-bottom: 2px;
+            line-height: 1.2;
+        }
+        
+        /* Projects */
+        .project-item {
+            margin-bottom: 10px;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            font-size: 9.5px;
+            margin-bottom: 1px;
+        }
+        
+        .project-subtitle {
+            font-size: 8px;
+            font-style: italic;
+            margin-bottom: 2px;
+        }
+        
+        .project-description {
+            font-size: 8.5px;
+            line-height: 1.25;
+            margin-bottom: 1px;
+        }
+        
+        .project-link {
+            font-size: 7.5px;
+            color: #000;
+            text-decoration: underline;
+        }
+        
+        /* Achievements */
+        .achievements-list {
+            margin-left: 12px;
+        }
+        
+        .achievements-list li {
+            font-size: 8.5px;
+            margin-bottom: 2px;
+            line-height: 1.25;
+        }
+        
+        @media print {
+            body { font-size: 10.5px; }
+            .resume { margin: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <!-- Header -->
+        <div class="header">
+            <div class="name">Muhammad Abdullah</div>
+            <div class="title">Senior WebGIS Developer & Spatial Analytics Engineer</div>
+            <div class="contact">
+                Phone: +92-317-6306826 | Email: abdullah.gis.services@gmail.com<br>
+                LinkedIn: linkedin.com/in/muhammadabdullah-gisengineer | Portfolio: 4 Live WebGIS Applications
+            </div>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="section">
+            <div class="section-title">Executive Summary</div>
+            <div class="summary-text">
+                Accomplished WebGIS Developer and Spatial Analytics Engineer with demonstrated expertise in developing enterprise-grade geospatial solutions. Proven track record of delivering functional WebGIS applications with advanced technical capabilities. Expert in Mapbox GL JS, real-time data visualization, and AI-powered spatial analysis. Combines deep technical expertise in modern web technologies with advanced geospatial analysis capabilities to solve complex business challenges.
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Education -->
+                <div class="section">
+                    <div class="section-title">Education</div>
+                    <div class="education-item">
+                        <div class="degree">Bachelor of Engineering in Geoinformatics</div>
+                        <div class="institution">National University of Sciences and Technology (NUST), Islamabad</div>
+                        <div class="institution">2024-2028 | CGPA: 3.7/4.0</div>
+                        <div class="details"><strong>Relevant Coursework:</strong> Advanced GIS, Remote Sensing, Spatial Database Management, Geodetic Engineering, Programming (C++, Python), Statistical Analysis</div>
+                    </div>
+                </div>
+
+                <!-- Professional Experience -->
+                <div class="section">
+                    <div class="section-title">Professional Experience</div>
+                    <div class="experience-item">
+                        <div class="job-title">Freelance WebGIS Developer</div>
+                        <div class="company">Self-Employed | 2024 - Present</div>
+                        <div class="job-description">• Developed 4 functional WebGIS applications demonstrating advanced technical capabilities<br>• Implemented real-time earthquake monitoring system with complex data visualization<br>• Created AI-powered solar energy analysis platform with machine learning integration<br>• Delivered business intelligence dashboard for spatial data analysis</div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="job-title">GIS Research Assistant</div>
+                        <div class="company">NUST Institute of Geographical Information Systems | 2025</div>
+                        <div class="job-description">• Conducted advanced spatial analysis projects using industry-standard software<br>• Processed large satellite imagery datasets using ERDAS Imagine<br>• Collaborated with academic teams on geospatial research initiatives</div>
+                    </div>
+                </div>
+
+                <!-- Technical Skills -->
+                <div class="section">
+                    <div class="section-title">Core Technical Competencies</div>
+                    <ul class="skills-list">
+                        <li><strong>WebGIS Development:</strong> Mapbox GL JS, Leaflet, OpenLayers, ArcGIS API</li>
+                        <li><strong>Programming:</strong> JavaScript (ES6+), Python, HTML5/CSS3, Node.js</li>
+                        <li><strong>GIS Software:</strong> ArcGIS Pro, QGIS, ERDAS Imagine, Global Mapper</li>
+                        <li><strong>Databases:</strong> PostGIS, MongoDB, Firebase, Spatial SQL</li>
+                        <li><strong>Cloud Platforms:</strong> AWS, Google Cloud, Netlify, GitHub Pages</li>
+                        <li><strong>Data Processing:</strong> Pandas, NumPy, GDAL/OGR, GeoPandas</li>
+                        <li><strong>Design Tools:</strong> Adobe Creative Suite, AutoCAD, Figma</li>
+                        <li><strong>Project Management:</strong> Agile methodologies, Git version control</li>
+                    </ul>
+                </div>
+
+                <!-- Certifications & Achievements -->
+                <div class="section">
+                    <div class="section-title">Certifications & Achievements</div>
+                    <ul class="achievements-list">
+                        <li><strong>NUST Summer School Tutor</strong> - Advanced GIS & Programming (2025)</li>
+                        <li><strong>Best Student Project Award</strong> - NUST GIS Department (2024)</li>
+                        <li><strong>Dean's List</strong> - Academic Excellence Recognition (2024)</li>
+                        <li><strong>Technical Speaker</strong> - NUST GIS Symposium 2024</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Portfolio Projects -->
+                <div class="section">
+                    <div class="section-title">Production WebGIS Applications</div>
+                    
+                    <div class="project-item">
+                        <div class="project-title">Business Intelligence Geospatial Dashboard</div>
+                        <div class="project-subtitle">React | Mapbox GL JS | PostGIS | Advanced Analytics</div>
+                        <div class="project-description">Enterprise-grade spatial analytics platform providing real-time business intelligence for Islamabad metropolitan area. Features include demographic analysis, market penetration mapping, and location optimization algorithms with interactive data visualization capabilities.</div>
+                        <div class="project-link">business-analysis-islamabad.netlify.app</div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-title">Real-Time Seismic Monitoring System</div>
+                        <div class="project-subtitle">JavaScript | WebGL | Live Data APIs | Data Visualization</div>
+                        <div class="project-description">Advanced earthquake visualization platform processing real-time seismic data from global monitoring networks. Implements complex temporal analysis, magnitude clustering, and comprehensive spatial mapping with interactive features.</div>
+                        <div class="project-link">kodeezabdullah.github.io/kamchatka-earthquake</div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-title">AI-Powered Solar Site Assessment Tool</div>
+                        <div class="project-subtitle">Python | TensorFlow | Satellite Imagery | Machine Learning</div>
+                        <div class="project-description">Innovative renewable energy analysis platform utilizing deep learning algorithms and high-resolution satellite imagery. Features automated solar potential assessment with advanced machine learning models for site evaluation.</div>
+                        <div class="project-link">gisdeveloper-nust.github.io/solarvision-ai</div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-title">Emergency Response Coordination Platform</div>
+                        <div class="project-subtitle">Node.js | Real-time APIs | Disaster Management</div>
+                        <div class="project-description">Comprehensive disaster management system for emergency coordination. Integrates multi-source data streams, provides real-time incident mapping, and facilitates coordinated emergency response with interactive dashboards.</div>
+                        <div class="project-link">gisdeveloper-nust.github.io/punjab-disaster-management</div>
+                    </div>
+                </div>
+
+                <!-- Academic Projects -->
+                <div class="section">
+                    <div class="section-title">Research & Academic Projects</div>
+                    <div class="project-item">
+                        <div class="project-title">Advanced Terrain Analysis Framework</div>
+                        <div class="project-subtitle">ArcGIS Pro | Python Scripting | Research Project</div>
+                        <div class="project-description">Developed automated workflow for large-scale topographic analysis including hydrological modeling, slope stability assessment, and erosion prediction using advanced spatial analysis techniques.</div>
+                    </div>
+                    
+                    <div class="project-item">
+                        <div class="project-title">Multi-Spectral Land Cover Classification</div>
+                        <div class="project-subtitle">ERDAS Imagine | Machine Learning | Classification Analysis</div>
+                        <div class="project-description">Implemented advanced classification algorithms for satellite imagery analysis covering large study area. Applied ensemble learning methods for accurate land cover classification.</div>
+                    </div>
+                </div>
+
+                <!-- Impact Metrics -->
+                <div class="section">
+                    <div class="section-title">Impact Metrics</div>
+                    <ul class="achievements-list">
+                        <li><strong>5+ Paid WebGIS Projects</strong> completed successfully</li>
+                        <li><strong>4 Production Applications</strong> deployed and functional</li>
+                        <li><strong>Advanced Technology Integration:</strong> AI/ML and real-time processing</li>
+                        <li><strong>Full-Stack Development:</strong> End-to-end project implementation</li>
+                        <li><strong>Multiple Technology Stacks:</strong> Diverse technical expertise demonstrated</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
